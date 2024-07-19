@@ -1,0 +1,18 @@
+%% -*- erlang -*-
+{application, etracker,
+ [{description, "A BitTorrent tracker"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { etracker_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
